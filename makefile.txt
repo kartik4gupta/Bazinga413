@@ -1,6 +1,0 @@
-lesgo:jake.o
-	gcc -m64 -no-pie jake.o -o lesgo
-main.o:jake.asm
-	nasm -f elf64 -g jake.asm
-clean:
-	 rm lesgo jake.o
